@@ -1,0 +1,42 @@
+.table-container {
+  width: 90%;
+  margin: 110px 5% auto;
+  display: inline-block;
+
+  .chips-container {
+    padding: 5px;
+
+    .mat-chip-list {
+      padding: 10px 0px;
+      display: block;
+    }
+  }
+
+  .button-container {
+    padding-bottom: 15px;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  .show-item,
+  .clear-filter {
+    cursor: pointer;
+  }
+
+  .thumbnail-item {
+    width: 150px;
+  }
+
+  .example-form {
+    // min-width: 150px;
+    // max-width: 500px;
+    width: 100%;
+  }
+
+  .example-full-width {
+    width: 100%;
+  }
+}
+
